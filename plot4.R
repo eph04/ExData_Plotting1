@@ -25,8 +25,8 @@ rm(df)
 ################################################################################
 ## Plot 4
 ## Initialize the device png and create a 2x2 graphic
-png(filename = "plot4.png",width = 480,height = 480,units = "px")
-par(mfcol=c(2,2))
+png(filename = "plot4.png",width = 480,height = 480,units = "px",bg = "transparent")
+par(mfcol=c(2,2), mar = c(4, 4, 1, 1), oma = c(0, 0, 2, 0))
 
 ## plot graphic 1st column, 1st row
 # set labels

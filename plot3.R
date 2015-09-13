@@ -31,7 +31,7 @@ main_title <- ""
 legend_lab <- c("Sub_metering_1","Sub_metering_2","Sub_metering_3")
 col_legend_items <- c("black","red","blue")
 # open graphic device
-png(filename = "plot3.png",width = 480,height = 480,units = "px")
+png(filename = "plot3.png",width = 480,height = 480,units = "px",bg = "transparent")
 # create an empty graph (type="n")
 plot(df_clean$Dttm,df_clean$Sub_metering_1
      ,type = "n",xlab = x_lab, ylab = y_lab,main = main_title)

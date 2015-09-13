@@ -29,7 +29,7 @@ x_lab <- ""
 y_lab <- "Global Active Power (kilowatt)"
 main_title <- ""
 # open graphic device
-png(filename = "plot2.png",width = 480,height = 480,units = "px")
+png(filename = "plot2.png",width = 480,height = 480,units = "px",bg = "transparent")
 # create an empty graph (type="n")
 plot(df_clean$Dttm,df_clean$Global_active_power
      ,type = "n",xlab = x_lab, ylab = y_lab,main = main_title)

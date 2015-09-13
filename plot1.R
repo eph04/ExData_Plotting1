@@ -28,7 +28,7 @@ rm(df)
 x_lab <- "Global Active Power (kilowatt)"
 main_title <- "Global Active Power"
 # open graphic device
-png(filename = "plot1.png",width = 480,height = 480,units = "px")
+png(filename = "plot1.png",width = 480,height = 480,units = "px",bg = "transparent")
 # create the graph
 hist(df_clean$Global_active_power,col = "red", xlab = x_lab, main = main_title)
 # close graphic device and write the file
